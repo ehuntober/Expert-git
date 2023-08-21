@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:#555;
+
+    font-weight: 400;
+  }
+  .navbar {
+    background-color: #fdf2e9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .navbar a {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 800;
+  }
+  .navbar a:hover {
+    color: #e67e22;
+  }
+  .navbar .logo img {
+    height: 1.5rem;
+    width: auto;
+  }
+  .navbar .try-button {
+    background-color:  #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .navbar .try-button:hover {
+    background-color: #ae5d16;
+  }
+
+
+  /* hero-page */
+
+  .hero-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fdf2e9;
+  }
+  .hero-content {
+    flex: 1;
+    padding-right: 50px;
+  }
+
+  .heading-primary{
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: 3.4rem;
+    letter-spacing: -2px;
+    color: #333;
+  }
+
+  .hero-text {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+  }
+  .btn-container {
+    display: flex;
+    gap: 10px;
+  }
+  .hero-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit
+  }
+
+
+  .btn1{
+    background-color: #e67e22;
+    color: #fff;
+  }
+
+  .btn2{
+    background-color: #ffffff;
+    color:#555;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+  }
+  .hero-image {
+    flex: 1;
+    max-width: 100%;
+    height: 520px;
+  }
+
+  .featured{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 1rem;
+  }
+
+  .customer-images{
+    display: flex;
+  }
+
+  .customer-images > img{
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    margin-right: -1em;
+    border:3px solid #fdf2e9;
+  }
+
+.featured-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.featured-text > span{
+    color:#e67e22;
+}
